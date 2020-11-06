@@ -37,9 +37,9 @@ def godunov_mod(a,b,N,T,cfl,w0,um,rhom):
     w=np.zeros((N+1,M+1))
     w[:,0]=w1 # Almacenamento da condición inicial.
     # w1 xa se inicializou ao construilas mallas.
-    w2=np.zeros((1,N+1))
-    wfront=np.zeros((1,N))
-    ffront=np.zeros((1,N))
+    w2=np.zeros(N+1)
+    wfront=np.zeros(N)
+    ffront=np.zeros(N)
 
     # Bucle en tempo:
     for j in range(1,M+1):
