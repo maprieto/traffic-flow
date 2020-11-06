@@ -22,9 +22,9 @@ def godunov_mod(a,b,N,T,cfl,w0,um,rhom):
     t=np.linspace(0,M,M+1)*deltat
 
     # Busqueda da fronteira máis próxima a cero:
-    x0,k=np.min(np.abs(x))
+    k=np.argmin(np.abs(x))
     #print('Numerical method: Godunov with discontinuous flux')
-    #print('Flux cutting point:',x0)
+    #print('Flux cutting point:',x[k])
 
     # Información sobre a discretización:
     #print('Numerical method: Godunov')
