@@ -11,10 +11,15 @@ To get the git version of **Traffic flow**, from the command line in a terminal,
 Installation and usage
 --------------------
 
-This software does not need any particular installation. Since it is based in Matlab scripts, it is required a Matlab installation (possibly with a limited educational license). 
+This software does not need any particular installation. Since it is based in Jupyter notebooks and/or Matlab scripts, 
 
-To use this code, from the MATLAB command window, type 
-
-    >> traffic_flow
+* Using **MATLAB**: it is required a Matlab installation (possibly with a limited educational license). To use this code, from the MATLAB command window, type 
+```
+    traffic_flow.m
+```
+* Using **Jupyter notebooks**: either a local host of Jupyter notebook server should be running or any cloud-based platforms can be used with the notebook
+```
+   traffic_flow.ipynb
+```
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/maprieto/traffic-flow/master?filepath=traffic_flow.ipynb)
