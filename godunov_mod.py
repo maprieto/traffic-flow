@@ -49,6 +49,7 @@ def godunov_mod(a,b,N,T,cfl,w0,um,rhom):
         for i in range(0,N):
             if i==k: # Fluxo nulo no punto de corte.
                 ffront[i]=0
+                continue
             if (w1[i]<=w1[i+1]): # Onda de choque (ou continuidade).
                 s=um*(1-(w1[i]+w1[i+1])/rhom)
                 if s<0:
