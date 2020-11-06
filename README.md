@@ -1,5 +1,5 @@
 # Traffic flow
-Numerical simulation of traffic flow using Godunov schemes
+Numerical simulation of traffic flow using Godunov schemes. The initial conditions come from some normal of jam traffic cases in two urban tunnels, located in Ronda (A Coruña, Spain) and Horreo (Santiago de Compostela, Spain). The required user data are the vehicle density, the maximum velocity allowed, and the occurrence of a traffic jam. The numerical setting is provided by means of the number of cells and the CFL constant. 
 
 Download
 --------
